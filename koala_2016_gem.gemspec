@@ -6,8 +6,8 @@ require 'koala_2016_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "koala_2016_gem"
   spec.version       = Koala2016Gem::VERSION
-  spec.authors       = [Write your name]
-  spec.email         = [Write your email address]
+  spec.authors       = Koala Cheung
+  spec.email         = nobody@nomail.com
 
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
