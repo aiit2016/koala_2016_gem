@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-Write usage instructions here
+### check_number
+引数が0以外ではじまる4桁の数字であり，なおかつ，値が偶数ならば 真を返す
+
+```
+Koala2016Gem::check_number　[int]　:　bool
+```
 
 ## Development
 
