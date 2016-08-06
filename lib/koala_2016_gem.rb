@@ -1,12 +1,16 @@
 require "koala_2016_gem/version"
 
 module Koala2016Gem
+  module_function
 
-    # TODO add comment 
     def check_number?(n)
-      # TODO : to be implemented
-      return false
+     if n >= 1000 and n <= 9999 then
+        if n.even? then
+           return true
+        end
+        return false
+     end
+     return false
     end
-
 
 end
