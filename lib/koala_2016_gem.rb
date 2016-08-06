@@ -1,6 +1,7 @@
 require "koala_2016_gem/version"
 
 module Koala2016Gem
+  module_function 
 
     def enough_length(str)
 
@@ -15,11 +16,13 @@ module Koala2016Gem
         return true
     end
 
-    # TODO add comment 
     def check_number?(n)
-      # TODO : to be implemented
-      return false
-    end
+     
+        if n >= 1000 and n <= 9999 then
+            return n.even?
+        end
 
+        return false
+    end
 
 end
