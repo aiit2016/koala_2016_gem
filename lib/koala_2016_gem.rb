@@ -1,7 +1,7 @@
 require "koala_2016_gem/version"
 
 module Koala2016Gem
-  module_function
+  module_function 
 
     def enough_length(str)
 
