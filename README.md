@@ -27,6 +27,13 @@ Or install it yourself as:
 Koala2016Gem::check_number　[int]　:　bool
 ```
 
+# enough_length
+文字列を受け取り，その長さが3文字以上，8文字以下であれば 真を返す
+
+```
+Koala2016Gem::enough_length　[str]　:　bool
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
