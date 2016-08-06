@@ -17,7 +17,10 @@ module Koala2016Gem
     end
 
     def check_number?(n)
-     
+        if n.is_a?(String) then
+            return false
+        end
+  
         if n >= 1000 and n <= 9999 then
             return n.even?
         end
