@@ -16,7 +16,6 @@ module Koala2016Gem
         return true
     end
 
-    # TODO add comment 
     def check_number?(n)
      
         if n >= 1000 and n <= 9999 then
