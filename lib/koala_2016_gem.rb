@@ -15,4 +15,11 @@ module Koala2016Gem
         return true
     end
 
+    # TODO add comment 
+    def check_number?(n)
+      # TODO : to be implemented
+      return false
+    end
+
+
 end
