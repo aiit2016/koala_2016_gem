@@ -42,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/a1624/koala_2016_gem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aiit2016/koala_2016_gem.
 
 
 ## License
